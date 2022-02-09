@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: #FCE4DE;   
+}
+
+.header {    
+    background-color: #FCE4DE;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+    color: #002441;
+    width: 100%;
+}
+.header__lista{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.header__lista2 {
+    display: none;  
+    list-style: none;
+}
+.header__lista li:hover ul{
+    position: absolute;
+    display: block;
+    background-color: #FCE4DE;
+    color:#002441;
+    border:  solid ;
+    border-radius: 3px;
+}
+.header__lista2 li:hover{
+    background-color: #002441;
+    color:#FCE4DE ;
+}
+
+a:link{
+    text-decoration: none; 
+    color: #002441;   
+}
+
+a:visited {
+    text-decoration: none;
+    color: #002441;
+    }
+    
+
+
+.parallax {
+    background-image: url(https://es.bcdn.biz/Images/2018/3/23/5113907e-15b0-4312-a5de-550cf3e41786.jpg);
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+	margin-bottom:50px;
+    font-size: 2rem;
+    color:#002441
+
+}
+.parallax h4 {
+	font-size: 2rem; 
+    font-family: 'Libre Baskerville', serif;
+	text-align: left; 
+	background-color:rgba(50,50,50,.2);
+	padding-top: 20px;
+	margin-top: 50px;
+}
+.parallax p {
+	font-size: 1rem; 
+    font-family: 'Libre Baskerville', serif;
+	text-align: justify; 
+	background-color:rgba(50,50,50,.2);
+	text-transform: capitalize;
+	padding: 10px;
+
+}
+
+.terapias__parrafo {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section img{
+    display:inline-block;
+}
+.section__parrafo{
+    font-family: 'Libre Baskerville', serif;
+    display:inline-block;
+    position:relative;
+    left: 600px;
+    bottom: 250px;
+    overflow: hidden;
+}
+.footer{
+    font-size: 1em;
+    text-decoration: none;
+    color: #002441;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__parrafo {
+    font-family: 'Libre Baskerville', serif;
+    
+    
+}
+
+footer a img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
