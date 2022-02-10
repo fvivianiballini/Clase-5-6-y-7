@@ -16,10 +16,9 @@ body
     text-decoration: none;
     color: #002441;
     width: 100%;
+    display:flex;
 }
 .header__lista{
-    display:flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
@@ -30,18 +29,20 @@ body
 .header__lista2 {
     display: none;  
     list-style: none;
+    
 }
-.header__lista li:hover ul{
+.header__lista2 li:hover ul{
     position: absolute;
     display: block;
     background-color: #FCE4DE;
     color:#002441;
     border:  solid ;
     border-radius: 3px;
+    
 }
-.header__lista2 li:hover{
-    background-color: #002441;
-    color:#FCE4DE ;
+
+.header__lista2{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 a:link{
@@ -53,6 +54,7 @@ a:visited {
     text-decoration: none;
     color: #002441;
     }
+
     
 
 
