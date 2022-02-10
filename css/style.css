@@ -10,7 +10,7 @@ body
     
 }
 
-.header {    
+.header__nav {    
     background-color: #FCE4DE;
     font-family: 'Libre Baskerville', serif;
     text-decoration: none;
@@ -22,13 +22,13 @@ body
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    list-style: none;
+    
     
 }
 
 .header__lista2 {
     display: none;  
-    list-style: none;
+    
     
 }
 .header__lista2 li:hover ul{
@@ -38,12 +38,11 @@ body
     color:#002441;
     border:  solid ;
     border-radius: 3px;
+    list-style: none;
     
 }
 
-.header__lista2{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
-}
+
 
 a:link{
     text-decoration: none; 
