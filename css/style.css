@@ -16,31 +16,24 @@ body
     text-decoration: none;
     color: #002441;
     width: 100%;
-
-}
-
-.header__nav img{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.header__logo{
+    justify-content: center;
 }
 
 .header__lista{
-    display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: space-between;
     text-decoration: none;
     list-style: none;
-    margin-right: 20px;
+    
 }
 
-.header__lista:hover{
 
-}
-.header img {
-    margin-left: 20px;
-}
 
 
 a:link{
