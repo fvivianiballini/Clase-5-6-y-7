@@ -10,30 +10,32 @@ body
     background-color: #FCE4DE;   
 }
 
-.header {    
+.header {
     background-color: #FCE4DE;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: none;
     color: #002441;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.header__logo{
-    justify-content: center;
-}
-
-.header__lista{
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
-    text-decoration: none;
-    list-style: none;
+    font-family: 'Rubik', sans-serif;
+    
     
 }
 
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
+.header__lista{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 2vh;
+    margin-bottom: 30px;
+}
+
+.header__lista a:hover {
+    text-decoration: underline;
+    transition: all 3s; 
+}
 
 
 a:link{
