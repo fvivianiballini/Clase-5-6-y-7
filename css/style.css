@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    overflow-x: hidden;
+    background-color: #FCE4DE;   
+}
+
+.header {    
+    background-color: #FCE4DE;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: #002441;
+    width: 100%;
+
+}
+
+.header__nav img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__lista{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.header__lista:hover{
+
+}
+.header img {
+    margin-left: 20px;
+}
+
+
+a:link{
+    text-decoration: none; 
+    color: #002441;   
+}
+
+a:visited {
+    text-decoration: none;
+    color: #002441;
+    }
+    
+
+
+.parallax {
+    background-image: url(https://es.bcdn.biz/Images/2018/3/23/5113907e-15b0-4312-a5de-550cf3e41786.jpg);
+    height: 30em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+	margin-bottom:50px;
+    font-size: 2rem;
+    color:#002441
+
+}
+.parallax h4 {
+	font-size: 2rem; 
+    font-family: 'Libre Baskerville', serif;
+	text-align: left; 
+	background-color:rgba(50,50,50,.2);
+	padding-top: 20px;
+	margin-top: 50px;
+}
+.parallax p {
+	font-size: 1rem; 
+    font-family: 'Libre Baskerville', serif;
+	text-align: justify; 
+	background-color:rgba(50,50,50,.2);
+	text-transform: capitalize;
+	padding: 10px;
+
+}
+
+.section__aboutus {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(https://es.bcdn.biz/Images/2018/3/23/5113907e-15b0-4312-a5de-550cf3e41786.jpg);
+    height: 20em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+	margin-bottom:50px;
+    font-size: 2rem;
+    color:#002441
+}
+
+.section__aboutus img{
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    border: solid;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin: 50px 0px 50px 50px;
+}
+
+.section__parrafo{
+    font-family: 'Libre Baskerville', serif;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1rem; 
+    font-family: 'Libre Baskerville', serif;
+	text-align: justify; 
+	background-color:rgba(50,50,50,.6);
+	text-transform: capitalize;
+	padding: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.terapias__parrafo {
+    font-family: 'Libre Baskerville', serif;
+}
+.footer{
+    font-size: 1em;
+    text-decoration: none;
+    color: #002441;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.footer__parrafo {
+    font-family: 'Libre Baskerville', serif;
+    display:flex;
+    align-items: flex-end;
+    
+}
+
+.footer a img{
+    width: 20px;
+    height: 20px;
+    align-items: flex-end;
+    
+}
+
+
